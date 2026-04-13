@@ -1,0 +1,41 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# =========================
+# R
+# =========================
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data (never commit raw/cleaned data)
+# =========================
+data/raw/*
+data/cleaned/*
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+
+# =========================
+# Environment variables
+# =========================
+.env
